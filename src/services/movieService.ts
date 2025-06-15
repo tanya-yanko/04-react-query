@@ -18,7 +18,7 @@ interface MovieResponse {
 }
 
 const BASE_URL = 'https://api.themoviedb.org/3';
-const BEARER_TOKEN = import.meta.env.VITE_TMDB_API_KEY;
+const BEARER_TOKEN = import.meta.env.VITE_TMDB_TOKEN;
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
